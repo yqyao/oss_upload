@@ -1,0 +1,17 @@
+the all.py has three argv
+if you want to use download function:
+   python all.py 20161117 any download
+   20161117 is the folder you want to download ,any is any string,download is tell the all.py you want to download
+if you want to use upload function:
+   python all.py 20161117 20161117 20161118 upload
+   20161117 is the folder you want to upload 
+   20161118 is the log you get the dictionary
+   upload is tell the all.py you want to upload
+if you want to use delete function:
+   python all.py 20161117 any delete
+   just like the download
+   it will first get the filelist you want to delete
+if you want to use get_image_info:
+   python all.py 20161117 any get_image_info
+   it will return the image infomation of folder 20161117, include height, width, size
+
